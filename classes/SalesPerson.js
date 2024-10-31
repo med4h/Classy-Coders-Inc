@@ -8,6 +8,7 @@ constructor(name, position, salary, isHired, clients = [], totalSales = 0){
     this.clients = clients;
     this.#totalSales = totalSales;
 }
+
 getSalesNumbers(){
     return this.#totalSales
 }

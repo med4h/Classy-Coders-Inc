@@ -9,6 +9,7 @@ constructor(name, position, salary, isHired, programmingLanguages = []){
 getProgrammingLanguages(){
     return this.#programmingLanguages
 }
+
 setProgrammingLanguage(language){
     this.#programmingLanguages.push(language);
 }
